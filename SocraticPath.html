@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocraticPath - Philosophy-Driven Self-Discovery</title>
+    <!-- External CSS file link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Authentication Screen -->
+    <div id="authScreen" class="auth-screen">
+        <div class="auth-card">
+            <div class="logo">🧠</div>
+            <h1 class="app-title">SocraticPath</h1>
+            <p class="app-subtitle">Your journey to self-discovery begins here</p>
+
+            <div id="loginForm">
+                <h2 style="margin-bottom: 20px; color: #333;">Welcome Back</h2>
+                <p style="color: #666; margin-bottom: 25px;">Continue your path of reflection</p>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" value="demo@socraticpath.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" value="demo123">
+                </div>
+
+                <button class="btn" onclick="login()">Sign In</button>
+
+                <button class="link-btn" onclick="toggleForm()">Don't have an account? Sign up</button>
+
+                <div class="demo-info">
+                    <p><strong>Demo Credentials:</strong></p>
+                    <p>Email: demo@socraticpath.com</p>
+                    <p>Password: demo123</p>
+                </div>
+            </div>
+
+            <div id="registerForm" class="hidden">
+                <!-- Registration form content -->
+                <!-- ... existing code ... -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="dashboard hidden">
+        <div class="nav-bar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="nav-logo">
+                        <span class="logo-icon">🧠</span>
+                        <span class="logo-text">SocraticPath</span>
+                    </div>
+                    <div class="user-info">
+                        <span class="user-name" id="userName">Demo User</span>
+                        <button class="logout-btn" onclick="logout()">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Stat Cards -->
+            <div class="stat-cards">
+                <!-- ... existing code ... -->
+            </div>
+
+            <!-- School of Life Videos Section -->
+            <div class="card video-gallery">
+                <!-- ... existing code ... -->
+            </div>
+
+            <!-- Research Papers Section -->
+            <div class="card research-papers">
+                <!-- ... existing code ... -->
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="content-grid">
+                <!-- Left Column -->
+                <div>
+                    <!-- Mood Tracker -->
+                    <div class="card">
+                        <!-- ... existing code ... -->
+                    </div>
+
+                    <!-- Mood Chart -->
+                    <div class="card">
+                        <!-- ... existing code ... -->
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div>
+                    <!-- Philosophy Insight -->
+                    <div class="card">
+                        <!-- ... existing code ... -->
+                    </div>
+
+                    <!-- Mindful Practices -->
+                    <div class="card">
+                        <!-- ... existing code ... -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External JavaScript file link -->
+    <script src="script.js"></script>
+</body>
+</html>
